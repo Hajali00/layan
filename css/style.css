@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+}
+.right {
+  height: 90%;
+  width: 45%;
+  margin-left: 40px;
+  margin-right: 50px;
+  margin-top: 40px;
+  text-align: center;
+  background-color: #e8a0bf;
+  display: inline-block;
+  position: absolute;
+  left: 720px;
+}
+
+.left {
+  height: 809px;
+  width: 720px;
+  background-color: #937dc2;
+  display: inline-block;
+  position: absolute;
+  right: 720px;
+  text-align: center;
+  line-height: 2;
+}
+.up {
+  width: 25%;
+  height: 25%;
+  margin-top: 2%;
+}
+.skill1 {
+  width: 70%;
+  text-align: right;
+  position: relative;
+  left: 10rem;
+  top: 2%;
+  color: #2e0249;
+  font-size: 17px;
+  font-family: "Indie Flower", cursive;
+}
+.skill2 {
+  width: 70%;
+  text-align: left;
+  position: relative;
+  left: 3rem;
+  top: 7rem;
+  color: #2e0249;
+  font-size: 16px;
+  font-family: "Indie Flower", cursive;
+}
+.down {
+  width: 25%;
+  margin-top: 15%;
+}
+.me {
+  border-radius: 150px;
+  width: 40%;
+  height: 35%;
+  text-align: center;
+  margin-top: 7%;
+}
+.btn {
+  display: block;
+  border-style: inset;
+  border-width: 3px;
+  border-color: #937dc2;
+  color: #e8a0bf;
+  font-family: "Indie Flower", cursive;
+  font-size: 20px;
+  width: 25%;
+  height: 7%;
+  position: relative;
+  top: 6%;
+  left: 37%;
+  background-color: #937dc2;
+}
+.btn:hover {
+    background-color:#2e0249;
+    color: #2e0249;
+    background-color: #e8a0bf;
+    cursor: pointer;
+}
+.about {
+  margin: 15% auto 10%;
+  text-align: center;
+  width: 90%;
+  font-size: large;
+  font-family: "Indie Flower", cursive;
+  color: #2e0249;
+}
